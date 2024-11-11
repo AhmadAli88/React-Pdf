@@ -1,14 +1,14 @@
 import './App.css';
-import BasicPDFViewer from './components/Basic';
-// import MultiplePagesPDFViewer from './components/Multiple Pages';
-// import ZoomWithDownload from './components/Zooming In and Out';
+import { AnnotatedDocument } from './components/AnnotatedDocument';
+import PDFViewer from './components/Basic';
 
 function App() {
   return (
     <div>
-      <BasicPDFViewer />
-      {/* <MultiplePagesPDFViewer />
-      <ZoomWithDownload/> */}
+      <AnnotatedDocument />
+      <div style={{marginTop: '30px'}}>
+        <PDFViewer />
+      </div>
     </div>
   );
 }
