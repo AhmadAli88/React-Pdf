@@ -21,8 +21,12 @@ const MultipageDocument = () => {
 
 const styles = StyleSheet.create({
   page: {
-    flexDirection: 'row',
+    width: "300px",
+    display: "block",
+    marginLeft: "100px",
     backgroundColor: '#E4E4E4',
+    marginBottom: '40px',
+    border: '5px solid lightblue'
   },
   section: {
     margin: 10,
@@ -38,6 +42,7 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 14,
     marginBottom: 8,
+    color: 'green'
   },
 });
 export default MultipageDocument;
